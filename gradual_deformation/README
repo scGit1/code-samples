@@ -1,0 +1,6 @@
+This directory completes the gradual deformation algorithm performed
+to invert for a subsurface velocity field. Statistical model Realizations
+were generated using Stanford Geostatistical Modeling Sorftware (SGeMS).
+These realizations are transformed to data space and converted to a .npy
+by running the script './sc_GradDef/svReal.py'. The algorithm is completed 
+by next running './sc_GradDef/realDepth.py'.
