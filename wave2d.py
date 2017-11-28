@@ -1,8 +1,7 @@
 #!/usr/bin/python
 #
-# script to compute 2d wave
-# not working...
-#
+# script to compute 2d wave propagation using the leap frog technique (numerical integration)
+
 import numpy as np
 import matplotlib.pyplot as plt
 cmap = plt.cm.get_cmap('seismic')
