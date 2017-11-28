@@ -1,15 +1,13 @@
 #!/User/bin/python
 #
-#
-# Script to perfom leastsquares fit 
-#
-#
+# Script to perfom Levenberg Marquardt algorithm to curve fit 
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import leastsq
-#
-#
-#
+
+
+
 def fitter(p0,x,y,func,errfunc,err):
 # the fitter function   
     out = leastsq(errfunc,p0,args=(x,y,func,err),full_output=1)
